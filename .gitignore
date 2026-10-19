@@ -1,0 +1,25 @@
+# packages
+node_modules/
+
+# built websites
+dist/
+dist-admin/
+
+# SECRETS: never put these on GitHub
+.env
+.env.*
+!.env.example
+
+# the database and its backups (they contain your users and payments)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# other
+*.log
+.DS_Store
+backend-old/
+.env
+node_modules
+dist
