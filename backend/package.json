@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Inkwell API: Express + TypeScript + SQLite",
   "main": "dist/server.js",
-    "scripts": {
+  "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
